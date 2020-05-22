@@ -17,3 +17,5 @@ static const int controlkeyclear = 0;
 /* time in seconds to cancel lock with mouse movement */
 static const int timetocancel = 4;
 
+/* time in seconds before the monitor shuts down */
+static const int monitortime = 5;
