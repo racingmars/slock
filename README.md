@@ -5,7 +5,9 @@ simple screen locker utility for X.
 Matthew's slock Customizations
 ------------------------------
 
-This repository contains the build of slock that I use on my desktop. My configuration is in config.h; the config.h.def file is maintained as the defaults as modified by each patch.
+This repository contains the build of slock that I use on my desktop. My configuration is in config.h; the config.h.def file is maintained as the defaults as modified by each patch. The following patches from https://tools.suckless.org/slock/patches/ are installed:
+
+ * control clear (Don't trigger red screen on control character input.)
 
 The remainder of this readme is the original slock readme.
 
