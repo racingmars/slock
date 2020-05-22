@@ -13,3 +13,6 @@ static const int failonclear = 1;
 
 /* allow control key to trigger fail on clear */
 static const int controlkeyclear = 1;
+
+/* time in seconds to cancel lock with mouse movement */
+static const int timetocancel = 5;
